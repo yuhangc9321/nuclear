@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nuclear</title>
+  <title>Nuclear Science</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
   <!-- Latest compiled and minified CSS -->
@@ -19,7 +19,7 @@
 
   <!--custom-->
   <link rel="stylesheet" href="css/style.css">
-  <script src="script.js"></script>
+  <script src="js/script.js"></script>
 </head>
 
 <body>
@@ -31,81 +31,101 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Logo</a>
     </div>
     <div class="collapse navbar-collapse" id="Navbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="#discovery">Discovery</a></li>
-        <li><a href="#research">Research</a></li>
-        <li><a href="#usage">Usage</a></li>
-        <li><a href="#sources">Sources</a></li>
+        <li class="active"><a href="#landing">Home</a></li>
+        <li><a href="#theory">Theory</a></li>
+        <li><a href="#chain">Chain</a></li>
+        <li><a href="#plutonium">Plutonium</a></li>
+        <li><a href="#shrinking">Shrinking</a></li>
+        <li><a href="#hydrogen">Hydrogen</a></li>
       </ul>
     </div>
   </nav>
 
   <div id="landing">
-    <div id="image">
-      <div class="text-center">
-        <h1>Title</h1>
-        <h2>Subtitle</h2>
-      </div>
-    </div>
-    <div class="container" id="bottom">
-      <div class="row text-center">
-        <div class="col-sm-4">
-          <p>testing</p>
-        </div>
-        <div class="col-sm-4">
-          <p>testing</p>
-        </div>
-        <div class="col-sm-4">
-          <p>testing</p>
-        </div>
-      </div>
+    <div class="text-center">
+      <h1>Going Nuclear</h1>
+      <h2>The Science of Nuclear Weapons</h2>
     </div>
   </div>
 
-  <h1>discovery</h1>
-  <div class="container" id="discovery">
+  <div class="jumbotron">
+    <div class="text-center fullsec">
+      <h2>A series about nuclear physics and nuclear weapons</h2>
+    </div>
+  </div>
+
+  <div class="text-center fullsec" id="theory">
+    <h1>Just a Theory</h1>
+  </div>
+
+  <div class="container" id="theory-content">
     <div class="row">
-      <div class="col-xs-6">
-        <h2>test</h2>
-        <p>something something</p>
+      <div class="col-md-5 col-md-offset-1">
+        <p>Going Nuclear is a multi part series where I go into detail on how nuclear weapons work, looking deep at the science and explaining how some curious discoveries in the early 20th century lead to the most powerful weapons ever used in war, and
+          how those were tuned and evolved into the smaller, more powerful modern weapons.
+        </p>
       </div>
-      <div class="col-xs-6">
-        <h2>test</h2>
-        <p>something something</p>
+      <div class="col-md-5">
+        <p>Part 1 covers the early experimental discoveries and how they provided the theoretical underpinnings to show that Atomic chain reactions would work and how that might lead to a new form of energy.
+        </p>
       </div>
     </div>
   </div>
 
-  <div id="gallery" class="carousel slide" data-ride="carousel" data-interval="false">
-    <ol class="carousel-indicators">
-      <li data-target="#gallery" data-slide-to="0" class="active"></li>
-      <li data-target="#gallery" data-slide-to="1"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="item active">
-        <img src="img/download.png">
-      </div>
-      <div class="item">
-        <img src="img/maxresdefault.jpg">
-      </div>
-      <a class="left carousel-control" href="#gallery" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-                </a>
-      <a class="right carousel-control" href="#gallery" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-            </a>
+  <div class="text-center fullsec" id="chain">
+    <h1>Chain Reaction</h1>
+  </div>
+
+  <div class="container" id="chain-content">
+    <div class="col-xs-8 col-xs-offset-2">
+      <p>With the basic theory having shown that a nuclear chain reaction was possible the next step is to actually make it work, first with a stable nuclear reactor - the Chicago Pile 1. Then we discuss how to go from a controllable reactor to the very
+        first nuclear device - the Little Boy.
+      </p>
+    </div>
+  </div>
+
+  <div class="text-center fullsec" id="plutonium">
+    <h1>Plutonium Implosion</h1>
+  </div>
+
+  <div class="container" id="plutonium-content">
+    <div class="col-xs-8 col-xs-offset-2">
+      <p>The Manhattan project investigated Uranium and Plutonium devices and technical problems with the Plutonium forced the development of a much more complex, and ultimately more efficient system which used implosion to assemble the critical mass.
+      </p>
+    </div>
+  </div>
+
+  <div class="text-center fullsec" id="shrinking">
+    <h1>Shrinking Warhead</h1>
+  </div>
+
+  <div class="container" id="shrinking-content">
+    <div class="col-xs-8 col-xs-offset-2">
+      <p>After WWII work continued on improving the technology behind the Gadget, and through a series of innovations the massive design was improved upon. Some were made more powerful, others were made smaller and eventually the first steps towards harnessing
+        fusion were taken.
+      </p>
+    </div>
+  </div>
+
+  <div class="text-center fullsec" id="hydrogen">
+    <h1>Hydrogen Bombs</h1>
+  </div>
+
+  <div class="container" id="hydrogen-content">
+    <div class="col-xs-8 col-xs-offset-2">
+      <p>While the Manhatten project was working on the first fission bombs Edward Teller began working on a fusion powered 'Super' device. Fission devices were 1000 times as powerful as conventional explosives, and fusion devices could be 1000 times more
+        powerful than the early fission devices.
+      </p>
     </div>
   </div>
 
   <div id="footer">
-    <div class="text-center">
-      <div></div>
-      <h1>Contact</h1>
-    </div>
+      <button>
+      click me
+    </button>
   </div>
 
 </body>

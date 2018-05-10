@@ -1,38 +1,109 @@
-html,body {
+html,
+body {
     width: 100%;
     height: 100%;
     padding-top: 25px;
 }
 
 #landing {
-    width: 100%;
-    height: 100%;
-}
-
-#image {
     display: table;
     width: 100%;
-    height: 60%;
-    background: url("../img/download.png") no-repeat center;
+    height: 100%;
+    background: url("../img/landing.png") no-repeat center;
     background-size: cover;
 }
 
-#bottom {
-    display: table;
+#theory {
+    background: url("../img/theory.png") no-repeat center;
+    background-size: cover;
+}
+
+#chain {
+    background: url("../img/chain.png") no-repeat center;
+    background-size: cover;
+}
+
+#plutonium {
+    background: url("../img/plutonium.png") no-repeat center;
+    background-size: cover;
+}
+
+#shrinking {
+    background: url("../img/shrinking.png") no-repeat center;
+    background-size: cover;
+}
+
+#hydrogen {
+    background: url("../img/hydrogen.png") no-repeat center;
+    background-size: cover;
+}
+
+button {
     width: 100%;
-    height: 40%;
+}
+
+.jumbotron .text-center h2{
+    color: black;
 }
 
 .text-center {
     text-align: center;
     vertical-align: middle;
     display: table-cell;
+    color: white;
+}
+
+.fullsec {
+    width: 100%;
+    display: table;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    padding: 20px 10px;
+    font-size: 20px;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 60px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .fullsec h1{
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    h1 {
+        font-size: 80px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 100px;
+    }
+    h2 {
+        font-size: 50px;
+    }
 }
 
 #footer {
     display: table;
     width: 100%;
     height: 100px;
-    background-color: grey;
-    
+    background-color: gray;
 }
